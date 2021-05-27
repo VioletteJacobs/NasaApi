@@ -19,5 +19,5 @@ async function sendApiRequest(){
 // what we do with de data 
 function useApiData(data){
     content.innerHTML = data.explanation;
-    content.innerHTML += <img src="${data.explanation}"></img>
+    content.innerHTML += `<img src="${data.url}">`
 }
